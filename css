@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: product sans; 
+}
+
+body {
+    background-color: rgb(167, 183, 223);
+}
+
+    
+
+#categoria{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 21%;
+    
+}
+h1 {
+    position: absolute;
+    margin-left: 35%;
+    
+}
+
+.inputs input {
+    width: 300px;
+    height: 45px;
+
+    padding: 18px;
+
+    font-size: 18px;
+
+    border-radius: 29px;
+    margin-top: 3%;
+    
+}
+    
+    
+
+#lista {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 18%;
+    gap: 18px;
+    font-size: 20px;
+}
+#resultado{
+    position: absolute;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 4%;
+}
