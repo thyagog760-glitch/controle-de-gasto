@@ -28,6 +28,7 @@ function registrar (){
 
     salvar()
     mostra(gastos)
+    saldo()
 }
 
 function mostra(gastos){
@@ -37,10 +38,11 @@ function mostra(gastos){
 
     gastos.forEach((item, index) => {
         let card = document.createElement("div")
+        card.className = "card-gasto";
 
         card.innerHTML = `
         <div class="info">
-        <h2> R$:${item.valor}</h2>
+        <h2> : ${item.valor}</h2>
 
         <P>${item.gasto}</p>
 
@@ -70,8 +72,8 @@ function saldo (){
 
      let restante = salario - total;
 
-     document.getElementById("saldo")
-     innerHTML = "saldo R%:" + restante
+     document.getElementById("saldo").
+     innerHTML = "saldo R$:" + restante
 }
 
 
